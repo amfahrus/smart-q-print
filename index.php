@@ -112,13 +112,13 @@ $array_slots = json_decode($slots, true);
 										'.$row["no"].'
 									</td>
 									<td>
-										'.$row["name"].'
+										'.($row["name"] === "Kosong"? "":$row["name"]).'
 									</td>
 									<td>
-										'.$row["address"].'
+										'.($row["address"] === "Kosong"? "":$row["address"]).'
 									</td>
 									<td>
-										'.$row["phone"].'
+										'.($row["phone"] === "Kosong"? "":$row["phone"]).'
 									</td>
 									<td>
 										'.$keterangan.'
