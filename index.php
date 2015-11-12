@@ -50,16 +50,16 @@ $array_slots = json_decode($slots, true);
 		<div class="col-md-10">
 			<table class="table">
 			  <tr>
-				<td>Kegiatan</td>
-				<td><?php echo $nama_jadwal; ?></td>
+				<td class="col-md-2">Kegiatan</td>
+				<td class="col-md-10"><?php echo $nama_jadwal; ?></td>
 			  </tr>
 			  <tr>
-				<td>Tanggal</td>
-				<td><?php echo $tanggal_jadwal; ?></td>
+				<td class="col-md-2">Tanggal</td>
+				<td class="col-md-10"><?php echo $tanggal_jadwal; ?></td>
 			  </tr>
 			  <tr>
-				<td>Keterangan</td>
-				<td><?php echo $keterangan_jadwal; ?></td>
+				<td class="col-md-2">Keterangan</td>
+				<td class="col-md-10"><?php echo $keterangan_jadwal; ?></td>
 			  </tr>
 			</table>
 		</div>
