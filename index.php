@@ -1,12 +1,12 @@
 <?php
 
-include dirname(__DIR__) . '/vendor/autoload.php';
+//include dirname(__DIR__) . '/vendor/autoload.php';
 
 const DEFAULT_URL = 'https://antrian.firebaseio.com/';
 const DEFAULT_TOKEN = 'u6hsdIr37Px7Io8eWeOVnfJjPifrzeaFTUD6ePuo';
 const DEFAULT_PATH = '/booking';
 
-$firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
+//$firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
 
 $kota = $_GET['kota'];
 $fasilitas = $_GET['fasilitas'];
@@ -14,12 +14,12 @@ $entitas = $_GET['entitas'];
 $jadwal = $_GET['jadwal'];
 
 // --- reading the stored string ---
-$nama_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/name');
-$tanggal_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/date');
-$keterangan_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/desc');
+//$nama_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/name');
+//$tanggal_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/date');
+//$keterangan_jadwal = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/desc');
 
-$slots = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/slots');
-
+//$slots = $firebase->get(DEFAULT_PATH . '/' . $kota . '/'. $fasilitas . '/' . $entitas . '/schedules' . '/' . $jadwal . '/slots');
+$slots = '';
 $array_slots = json_decode($slots, true);
 ?>
 <!DOCTYPE html>
