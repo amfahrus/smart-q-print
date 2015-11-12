@@ -51,15 +51,15 @@ $array_slots = json_decode($slots, true);
 			<table class="table">
 			  <tr>
 				<td class="col-md-2">Kegiatan</td>
-				<td class="col-md-10"><?php echo $nama_jadwal; ?></td>
+				<td class="col-md-10">: <?php echo $nama_jadwal; ?></td>
 			  </tr>
 			  <tr>
 				<td class="col-md-2">Tanggal</td>
-				<td class="col-md-10"><?php echo $tanggal_jadwal; ?></td>
+				<td class="col-md-10">: <?php echo $tanggal_jadwal; ?></td>
 			  </tr>
 			  <tr>
 				<td class="col-md-2">Keterangan</td>
-				<td class="col-md-10"><?php echo $keterangan_jadwal; ?></td>
+				<td class="col-md-10">: <?php echo $keterangan_jadwal; ?></td>
 			  </tr>
 			</table>
 		</div>
