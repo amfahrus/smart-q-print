@@ -1,6 +1,6 @@
 <?php
 
-include dirname(__DIR__) . '/phpfirebase/vendor/autoload.php';
+include dirname(__DIR__) . '/vendor/autoload.php';
 
 const DEFAULT_URL = 'https://antrian.firebaseio.com/';
 const DEFAULT_TOKEN = 'u6hsdIr37Px7Io8eWeOVnfJjPifrzeaFTUD6ePuo';
