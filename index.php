@@ -42,8 +42,8 @@ $array_slots = json_decode($slots, true);
 
     <title>Smart-Q</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../css/style.css" rel="stylesheet">
 
   </head>
   <body>
@@ -51,7 +51,7 @@ $array_slots = json_decode($slots, true);
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-2" align="center">
-			<img alt="Logo" src="img/72.png">
+			<img alt="Logo" src="../../../../img/72.png">
 			<h4>
 				Smart-Q
 			</h4>
